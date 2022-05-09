@@ -1,0 +1,77 @@
+.footer {
+    background-color: $dark-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address__local {
+    color: $white-color;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+
+    &__link {
+        margin-top: 0;
+        margin-bottom: 9px;
+    }
+
+    &__link:hover,
+    &__link:focus {
+    color: $accent-color;
+    }
+}
+.footer-block {
+    margin-top: 12px;
+    width: 206px;
+
+    &__join {
+        color: $white-color;
+        text-transform: uppercase;
+    }
+}
+.footer-mailing {
+    margin-top: 12px;
+
+    &__join__join {
+    width: 570px;
+    justify-content: flex-end;
+    margin-top: 12px;
+    margin-left: 93px;
+    }
+}
+
+.mailing-block {
+    display: flex;
+    margin-top: 20px;
+
+    &__input {
+        margin-right: 12px;
+        width: 358px;
+        height: 50px;
+        padding-left: 16px;
+    
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__label ::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+.footer-subscribe {
+    position: relative;
+}
